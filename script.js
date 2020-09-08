@@ -22,7 +22,7 @@ const score = document.querySelector('.score'),
 start.addEventListener('click', startGame)
 
 function startGame() {
-  console.log('asdasd')
+  start.classList.add('hide')
   setting.start = true
   gameArea.appendChild(car)
   requestAnimationFrame(playGame)
